@@ -137,6 +137,10 @@ img{
     border-bottom: var(--primary-color) 4px solid;
 }
 
+#tab-1-content .tab-1-content-inner{
+    display:grid;
+}
+
 .container{
     max-width: 70%;
     margin: auto;
