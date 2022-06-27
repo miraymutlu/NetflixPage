@@ -16,9 +16,8 @@ function selectItem(e) {
 
 // Remove bottom borders from all tab items
 function removeBorder() {
-	tabItems.forEach(item => {
-		item.classList.remove('tab-border');
-	});
+	tabItems.forEach(item => 
+		item.classList.remove('tab-border'));
 }
 
 // Remove show class from all content items
@@ -29,7 +28,5 @@ function removeShow() {
 }
 
 // Listen for tab item click
-tabItems.forEach(item => {
-	item.addEventListener('click', selectItem);
-});
-
+tabItems.forEach(item => 
+	item.addEventListener('click', selectItem));
